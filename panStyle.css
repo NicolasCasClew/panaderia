@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow: hidden;
+  background-color: black;
 }
 
 .allContent {
@@ -13,13 +14,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: red;
+  background-color: #010203;
 
   width: 340px;
   gap: 10px;
-  z-index: 2;
+  z-index: 3;
 }
-
+.categories {
+  margin-top: 30px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /*background-color: blueviolet;*/
+  gap: 15px;
+}
+.textContainer {
+  font-family: "Krona One";
+  font-size: 26pt;
+  color: beige;
+}
 .squareTest {
   width: 10px;
   height: 10px;
@@ -27,26 +41,35 @@ body {
 }
 
 .logo {
-  background-color: aqua;
+  /*background-color: aqua;*/
   height: 280px;
   width: 220px;
   margin-top: 20px;
+  background-image: url(img/Logologo.png);
 }
 
 .divider {
-  height: 10px;
-  width: 90px;
-  background-color: gold;
+  height: 30px;
+  width: 270px;
+  /* background-color: gold;*/
+  background-image: url(img/div\ 1.png);
 }
 
 .language {
-  background-color: blueviolet;
-  height: 40px;
-  width: 45px;
+  /*
+  background-color: blueviolet;*/
+  height: 65px;
+  width: 60px;
   margin-left: auto;
   margin-top: auto;
   margin-bottom: 10px;
   margin-right: 10px;
+  background-image: url(img/Languaje.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.pan {
+  color: #edae49;
 }
 
 .contentContainer {
@@ -55,14 +78,31 @@ body {
   height: 100vh;
   flex: 1;
 }
-
+.bg-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  height: inherit;
+  background-image: url(img/breadfire.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+  filter: blur(7px) brightness(60%);
+}
 .pageContent {
-  background-color: blue;
+  /*background-color: black;*/
   height: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  /*background-image: url(img/breadfire.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(7px);*/
+  z-index: 2;
 }
 
 .breadContainer {
@@ -71,7 +111,7 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
   z-index: 0;
 }
 
@@ -104,6 +144,11 @@ body {
   transform: scaleX(-1);
   background-position: center;
   background-image: url(img/arrowL.png);
+  cursor: pointer;
+}
+.arrowRight:active {
+  background-color: rgba(0, 0, 0, 0.87);
+  transform: translateX(5px) scale(-1);
 }
 
 .arrowLeft {
@@ -117,20 +162,34 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(img/arrowL.png);
+  cursor: pointer;
+}
+.arrowLeft:active {
+  background-color: rgba(0, 0, 0, 0.87);
+  transform: translateX(-5px);
 }
 
 .title {
+  color: beige;
+  font-size: 27pt;
   position: absolute;
   height: 100px;
   width: 800px;
-  background-color: crimson;
+  background-color: #ad700e9a;
   top: 10%;
   left: 0%;
   z-index: 10;
+  font-family: "Montserrat";
+  padding-left: 35px;
 }
 
 .upBar {
-  background-color: yellow;
+  background-color: #edae49;
   width: auto;
   height: 20px;
+  z-index: 3;
+}
+.textContainer:hover {
+  color: #edae49;
+  cursor: pointer;
 }
