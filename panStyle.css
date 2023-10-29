@@ -15,7 +15,7 @@ body {
   justify-content: flex-start;
   background-color: red;
 
-  width: 170px;
+  width: 340px;
   gap: 10px;
   z-index: 2;
 }
@@ -28,8 +28,8 @@ body {
 
 .logo {
   background-color: aqua;
-  height: 150px;
-  width: 80px;
+  height: 280px;
+  width: 220px;
   margin-top: 20px;
 }
 
@@ -53,11 +53,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  flex: 1;
 }
 
 .pageContent {
   background-color: blue;
-  width: 85vw;
   height: inherit;
   display: flex;
   align-items: center;
@@ -76,42 +76,53 @@ body {
 }
 
 .breadContent {
-  background-color: brown;
-  height: 250px;
-  width: 170px;
+  /*background-color: brown;*/
+  width: 405px;
+  height: 565px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .smallBreadContent {
-  background-color: darkred;
-  height: 190px;
-  width: 100px;
+  /*background-color: darkred;*/
+  height: 420px;
+  width: 300px;
   z-index: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .arrowRight {
-  height: 60px;
-  width: 30px;
-  background-color: azure;
+  height: 210px;
+  width: 70px;
+  background-color: rgba(0, 0, 0, 0.74);
   position: absolute;
   right: 0%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  background-position: center;
+  background-image: url(img/arrowL.png);
 }
 
 .arrowLeft {
-  height: 60px;
-  width: 30px;
-  background-color: azure;
+  height: 210px;
+  width: 70px;
+  background-color: rgba(0, 0, 0, 0.74);
   position: absolute;
   left: 0%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/arrowL.png);
 }
 
 .title {
   position: absolute;
-  height: 60px;
-  width: 350px;
+  height: 100px;
+  width: 800px;
   background-color: crimson;
   top: 10%;
   left: 0%;
