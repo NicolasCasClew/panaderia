@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.allContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: red;
+
+  width: 170px;
+  gap: 10px;
+  z-index: 2;
+}
+
+.squareTest {
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+}
+
+.logo {
+  background-color: aqua;
+  height: 150px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.divider {
+  height: 10px;
+  width: 90px;
+  background-color: gold;
+}
+
+.language {
+  background-color: blueviolet;
+  height: 40px;
+  width: 45px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.pageContent {
+  background-color: blue;
+  width: 85vw;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.breadContainer {
+  top: 35%;
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 50px;
+  z-index: 0;
+}
+
+.breadContent {
+  background-color: brown;
+  height: 250px;
+  width: 170px;
+}
+
+.smallBreadContent {
+  background-color: darkred;
+  height: 190px;
+  width: 100px;
+  z-index: 0;
+}
+
+.arrowRight {
+  height: 60px;
+  width: 30px;
+  background-color: azure;
+  position: absolute;
+  right: 0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.arrowLeft {
+  height: 60px;
+  width: 30px;
+  background-color: azure;
+  position: absolute;
+  left: 0%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.title {
+  position: absolute;
+  height: 60px;
+  width: 350px;
+  background-color: crimson;
+  top: 10%;
+  left: 0%;
+  z-index: 10;
+}
+
+.upBar {
+  background-color: yellow;
+  width: auto;
+  height: 20px;
+}
