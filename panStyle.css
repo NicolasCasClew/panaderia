@@ -54,17 +54,37 @@ body {
   /* background-color: gold;*/
   background-image: url(img/div\ 1.png);
 }
-
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 180px;
+}
 .language {
   /*
   background-color: blueviolet;*/
   height: 65px;
   width: 60px;
-  margin-left: auto;
+  /*margin-left: auto;
   margin-top: auto;
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-right: 10px;*/
+  margin-left: 60px;
   background-image: url(img/Languaje.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.info {
+  /*
+        background-color: blueviolet;*/
+  height: 185px;
+  width: 180px;
+  /*margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;*/
+  background-image: url(img/info.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
