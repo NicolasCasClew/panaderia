@@ -15,7 +15,6 @@ body {
   align-items: center;
   justify-content: flex-start;
   background-color: #010203;
-
   width: 340px;
   gap: 10px;
   z-index: 3;
@@ -26,7 +25,6 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  /*background-color: blueviolet;*/
   gap: 15px;
 }
 .textContainer {
@@ -41,7 +39,6 @@ body {
 }
 
 .logo {
-  /*background-color: aqua;*/
   height: 280px;
   width: 220px;
   margin-top: 20px;
@@ -51,7 +48,6 @@ body {
 .divider {
   height: 30px;
   width: 270px;
-  /* background-color: gold;*/
   background-image: url(img/div\ 1.png);
 }
 .bottomContainer {
@@ -62,28 +58,16 @@ body {
   margin-top: 180px;
 }
 .language {
-  /*
-  background-color: blueviolet;*/
   height: 65px;
   width: 60px;
-  /*margin-left: auto;
-  margin-top: auto;
-  margin-bottom: 10px;
-  margin-right: 10px;*/
   margin-left: 60px;
   background-image: url(img/Languaje.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .info {
-  /*
-        background-color: blueviolet;*/
   height: 185px;
   width: 180px;
-  /*margin-right: auto;
-  margin-top: auto;
-  margin-bottom: 10px;
-  margin-left: 10px;*/
   background-image: url(img/info.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -112,16 +96,11 @@ body {
   filter: blur(7px) brightness(60%);
 }
 .pageContent {
-  /*background-color: black;*/
   height: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  /*background-image: url(img/breadfire.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(7px);*/
   z-index: 2;
 }
 
